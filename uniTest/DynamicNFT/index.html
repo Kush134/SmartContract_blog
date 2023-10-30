@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT</title>
+    <style>
+      body {
+        background-image: url("https://community-profile-images-1r34goy.s3.amazonaws.com/3d11ba41-7c74-4fa6-87b6-335fed0f1b4f");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+      }
+
+      .cc {
+        position: fixed;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 70%;
+        max-width: 90%;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 2px 10px #00000033;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+      .text {
+        flex: 1;
+        font-family: Verdana;
+        font-size: 32px;
+        color: #333333;
+        min-width: 40%;
+        text-align: center;
+      }
+
+      .star {
+        display: inline-block;
+        vertical-align: top;
+        width: 5vh;
+        height: 5vh;
+        background: linear-gradient(to bottom, #c5c4c4 0%, #b4b3b2 100%);
+        position: relative;
+        vertical-align: middle;
+
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation: bounce 4s infinite;
+      }
+
+      .star:before {
+        content: "";
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        bottom: 1px;
+        right: 1px;
+        z-index: 1;
+      }
+
+      .star,
+      .star:before {
+        -webkit-clip-path: polygon(
+          50% 0%,
+          66% 27%,
+          98% 35%,
+          76% 57%,
+          79% 91%,
+          50% 78%,
+          21% 91%,
+          24% 57%,
+          2% 35%,
+          32% 27%
+        );
+        clip-path: polygon(
+          50% 0%,
+          66% 27%,
+          98% 35%,
+          76% 57%,
+          79% 91%,
+          50% 78%,
+          21% 91%,
+          24% 57%,
+          2% 35%,
+          32% 27%
+        );
+      }
+
+      .star.gold {
+        background-image: radial-gradient(#ffeb3b, #ffd700);
+        box-shadow: 0 0 5vh #ffd700;
+        width: 6vh;
+        height: 6vh;
+      }
+
+      @keyframes glow {
+        0% {
+          box-shadow: 0 0 1vh #ffff0080;
+        }
+        50% {
+          box-shadow: 0 0 2vh #ffff00;
+        }
+        100% {
+          box-shadow: 0 0 1vh #ffff0080;
+        }
+      }
+
+      @keyframes bounce {
+        0%,
+        30% {
+          transform: translateY(0);
+        }
+        5% {
+          transform: translateY(-25px);
+        }
+        10% {
+          transform: translateY(20px);
+        }
+        15% {
+          transform: translateY(-10px);
+        }
+        20% {
+          transform: translateY(10px);
+        }
+        25% {
+          transform: translateY(-5px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cc">
+      <div class="text"></div>
+      <div class="sc"></div>
+    </div>
+
+    <script>
+      const numStars = 1;
+      const sc = document.querySelector(".sc");
+      for (let i = 1; i <= 5; i++) {
+        const star = document.createElement("div");
+        star.classList.add("star");
+        if (i <= numStars) {
+          star.classList.add("gold");
+        }
+        sc.appendChild(star);
+      }
+
+      const stars = document.querySelectorAll(".star");
+      function animate() {
+        let delay = 0;
+        stars.forEach((star, index) => {
+          star.style.animationDelay = `${delay}s`;
+          delay += 0.1;
+        });
+      }
+      animate();
+    </script>
+  </body>
+</html>

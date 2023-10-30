@@ -1,0 +1,150 @@
+{
+  "0": {
+    "status": "error",
+    "data": null,
+    "errorMessage": "Can't find profile with profileId: 0"
+  },
+  "1": {
+    "status": "success",
+    "data": {
+      "id": "1",
+      "title": "Crypto & Cars",
+      "description": "Our channel is dedicated to the most advanced trends in the world of NFT. Join us, it will be interesting!",
+      "socialMediaLinks": [
+        "https://twitter.com/BNBCHAIN",
+        "https://www.youtube.com/@BNBChainOfficial",
+        "https://t.me/bnbchain",
+        "https://github.com/bnb-chain"
+      ],
+      "logoId": "5ff10714-caad-43e0-a26c-ed0e672cb0c7",
+      "subscriptions": [
+        {
+          "id": "0x224ee663aebc87ccfcbe8f3aeb7f0e4e652345f5b972aa43aecce8b285fa52ac",
+          "status": "PUBLISHED",
+          "ownerId": "1",
+          "title": "The Ultimate Channel for Enthusiasts!",
+          "previewImageId": "db5c5188-0580-4664-a17a-8ea2285e6236"
+        }
+      ]
+    }
+  },
+  "2": {
+    "status": "success",
+    "data": {
+      "id": "2",
+      "title": "Jugger",
+      "description": "Exploring the world of NFTs through insightful analysis, market trends, and captivating discussions. Join me to stay informed and inspired in this transformative digital space.",
+      "socialMediaLinks": [
+        "https://twitter.com/BNBCHAIN",
+        "https://www.youtube.com/@BNBChainOfficial",
+        "https://t.me/bnbchain",
+        "https://github.com/bnb-chain"
+      ],
+      "logoId": "36a9d51c-6eb5-4604-bf29-75187507b6d2",
+      "subscriptions": [
+        {
+          "id": "0x8b0c17288918605c417ae1540e47a7b9a0e79cfd3068134cf60da4625656a0be",
+          "status": "DRAFT",
+          "ownerId": "2",
+          "title": "S4",
+          "previewImageId": "342a64e4-44bf-4f68-8980-4fd21b8b2134"
+        }
+      ]
+    }
+  },
+  "3": {
+    "status": "error",
+    "data": null,
+    "errorMessage": "Can't find profile with profileId: 3"
+  },
+  "4": {
+    "status": "error",
+    "data": null,
+    "errorMessage": "Can't find profile with profileId: 4"
+  },
+  "5": {
+    "status": "success",
+    "data": {
+      "id": "5",
+      "title": "Crypto Zombie",
+      "description": "Stay up-to-date with the latest developments in the world of cryptocurrency with Zombie.\n",
+      "socialMediaLinks": [
+        "https://twitter.com/BNBCHAIN",
+        "https://www.youtube.com/@BNBChainOfficial"
+      ],
+      "logoId": "ff4c057e-d465-4ca2-a0e3-d7fb1858c15b",
+      "subscriptions": []
+    }
+  },
+  "6": {
+    "status": "error",
+    "data": null,
+    "errorMessage": "Can't find profile with profileId: 6"
+  },
+  "7": {
+    "status": "success",
+    "data": {
+      "id": "7",
+      "title": "Crypto Zombie",
+      "description": "Stay up-to-date with the latest developments in the world of cryptocurrency with Zombie.",
+      "socialMediaLinks": [
+        "https://www.youtube.com/@BNBChainOfficial",
+        "https://twitter.com/BNBCHAIN",
+        "https://github.com/bnb-chain"
+      ],
+      "logoId": "3d11ba41-7c74-4fa6-87b6-335fed0f1b4f",
+      "subscriptions": [
+        {
+          "id": "0xb8b572502649f1e96b12115df3fa84549c69c4bdd67e63f67b382e9e7bdd07d3",
+          "status": "PUBLISHED",
+          "ownerId": "7",
+          "title": "All about computers",
+          "previewImageId": "48c39f4d-95a8-469a-8fbe-5eedeb61f9a0"
+        },
+        {
+          "id": "0x8c43468c0d6e01982fb08b2d61cfc4d7054c51fddf5b345af485956e34cef309",
+          "status": "PUBLISHED",
+          "ownerId": "7",
+          "title": "Blockchain Beginner",
+          "previewImageId": "d4e0e00a-16ef-4b06-84a4-f7aaf070be0d"
+        }
+      ]
+    }
+  },
+  "8": {
+    "status": "success",
+    "data": {
+      "id": "8",
+      "title": "Ghosty",
+      "description": "Stay ahead of the game with our DeFi news channel. Get real-time updates, insights, and analysis on the latest trends, projects, and innovations in the world of decentralized finance. Join us now!",
+      "socialMediaLinks": [
+        "https://twitter.com/BNBCHAIN",
+        "https://www.youtube.com/@BNBChainOfficial"
+      ],
+      "logoId": "5d9b0c2b-79ce-49a8-9325-f6a1fe82f618",
+      "subscriptions": [
+        {
+          "id": "0x64e17c54ec512c90499cfcbef3e99d822794f54343971fabf52c09fc672b4124",
+          "status": "PUBLISHED",
+          "ownerId": "8",
+          "title": "Blockchain Beginner",
+          "previewImageId": "16326727-3573-45c2-9559-d1170f9c373c"
+        }
+      ]
+    }
+  },
+  "9": {
+    "status": "success",
+    "data": {
+      "id": "9",
+      "title": "Ilya Mikheev",
+      "description": "Nodde Developer",
+      "socialMediaLinks": [
+        "https://vk.com/mikheevshow",
+        "https://t.me/mikheymouse"
+      ],
+      "logoId": "e2b0f900-0f02-4b71-b837-461fb1e89766",
+      "subscriptions": []
+    }
+  }
+}
